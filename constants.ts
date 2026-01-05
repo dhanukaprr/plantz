@@ -1,5 +1,5 @@
 
-import { Plant } from './types';
+import { Plant } from './types.ts';
 
 export const PLANTS: Plant[] = [
   {

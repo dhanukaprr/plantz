@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import { PLANTS } from '../constants';
-import { Plant } from '../types';
+import { PLANTS } from '../constants.ts';
+import { Plant } from '../types.ts';
 
 const PlantGrid: React.FC = () => {
   const [filter, setFilter] = useState<string>('All');

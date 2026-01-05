@@ -1,10 +1,10 @@
 
 import React from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import PlantGrid from './components/PlantGrid';
-import AIBotanist from './components/AIBotanist';
-import Footer from './components/Footer';
+import Header from './components/Header.tsx';
+import Hero from './components/Hero.tsx';
+import PlantGrid from './components/PlantGrid.tsx';
+import AIBotanist from './components/AIBotanist.tsx';
+import Footer from './components/Footer.tsx';
 
 const App: React.FC = () => {
   return (
